@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Vim Tutorial</title>
+	<link rel='stylesheet' type='text/css' href="stylesheet/stylesheet.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+</head>
+
+<body>
+	<div class="bodyContent">
+	<!--<img src="banners/topHeron.png" style='width:50%'>-->
+	<h1>Vim Tutorial For Scrubs (like me)</h1>
+	<p>Here, I'll be making a tutorial on Vim. This tutorial will be for absolute beginners, and only gives the most basic commands to do what you'll need it to. Hopefully this will give you the tools to start editing your files quickly and easily.</p>
+	<p>Vim is a popular terminal-based text editor for Linux and (recently) Windows. People like it, because it's got more functionality than nano, but it's not bloated like emacs.</p>
+	<hr>
+	<h2>How do I install Vim?</h2>
+	<ul>
+		<li>On Debian-based distros, use sudo apt-get update, then sudo apt-get install vim</li>
+	</ul>
+	<h2>How do I use this thing? (The Important Commands)</h2>
+	<p>
+	
+		<strong>Launch:</strong><ul><li>Launch vim by typing vim in the terminal.</li></ul>
+		<strong>Open with Vim:</strong><ul><li>You can also open a file with vim by typing vim &ltfilename&gt.</li></ul>
+		<strong>Modes:</strong><ul><li>In vim, there are <em>two</em> modes. You can't just start typing right away. There is <em>normal mode</em>, where you can type commands, and <em>insert mode</em> where you can freely edit the file like any other text editor. 
+			<ul>
+				<li>Switch to <em>insert mode</em> by hitting the <em>i</em> key.</li>
+				<li>Switch to <em>normal mode</em> by hitting the <em>Esc</em> key.</li>
+			</ul>
+		</li></ul>
+		<strong>CTRL + S:</strong><ul><li>DON'T PRESS IT! Because you're in the terminal, it tells the terminal that the input buffer is full and locks up the program. If you do press it out of habit, use CTRL + Q to unlock it.</li></ul>
+		<strong>Creating and Opening Files:</strong><ul><li>In <em>normal mode</em>, type the command :e &ltfilename&gt. The : tells Vim you're telling it a command. e is the command to open a file or create one if it doesn't exist.</li></ul>
+		<strong>Saving Your File:</strong><ul><li>:w saves your file. It overwrites the whole file.</li></ul>
+		<strong>Quitting Vim:</strong><ul><li>:q quits the program. :wq saves and quits the program.</li></ul>
+	</p>
+	<h2>Vim Workflow Commands and Techniques</h2>
+	<p>
+		<strong>Move Cursor by Word:</strong><ul><li>SHIFT + Left/Right Arrows moves the cursor by word instead of by letter.</li></ul>
+		<strong>Undo:</strong><ul><li>:u is the undo command</li></ul>
+		<strong>Delete Line:</strong><ul><li>:dd deletes an entire line</li></ul>
+	</p>
+	<h2>Changing Your Preferences</h2>
+	
+	<hr>
+	<center>[ <a href="index.html">Home</a> | <a href="">Contact</a> ]</center>
+	</div>
+</body>
+
+</html>

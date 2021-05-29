@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>ASCII Art Viewer</title>
+	<link rel='stylesheet' type='text/css' href="stylesheet/stylesheet.css">
+	<meta charset="utf-8"> 
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+</head>
+
+<body>
+	<div class="bodyContent">
+	<h1>ASCII Art Viewer</h1>
+	<p>View ASCII art you made through the command line, with ANSI colors and 5 different coloration modes. Currently only for windows.</p>
+	<hr>
+	<a href="">Github</a>: View on Github
+	<h2>Downloads</h2>
+	<ul>
+		<li><a href="">Download Windows .exe File</a>: Download .exe to run on Windows</li>
+		<li><a href="">Download Source Code</a>: Download .zip file with source code</li>
+	</ul>
+	<h2>How To Use</h2>
+	<p><strong>Path to ASCII Art:</strong>
+		<img src="asciiImages/asciiPath.png" style='width:62%'>
+		<ul><li>Specify the path to a file containing your ASCII art, using either the complete path or the path in relation to the location of the application</li></ul>
+	</p>
+	<p><strong>Path to Pallet:</strong>
+		<img src="asciiImages/palletPath.png" style='width:62%'>
+		<ul><li>Specify the path to your pallet file, using either the complete path or the path in relation to the location of the application</li></ul>
+	</p>
+	<p><strong>Switching Between Coloration Modes:</strong>
+		<table><tr><td><img src="asciiImages/mode1.png" style='width:85%'><center>Mode 1</center></td>
+		<td><img src="asciiImages/mode2.png" style='width:85%'><center>Mode 2</center></td>
+		<td><img src="asciiImages/mode5.png" style='width:85%'><center>Mode 5</center></td></tr></table>
+		<ul><li>Press numbers 1-5 to switch between the coloration modes. </li>
+		<li>Number 6 shows an ANSI color code reference.</li><br>
+		<li>Mode 1 displays the ASCII art unchanged with no coloration.</li>
+		<li>Mode 2 supresses all colors except black and unspecified and displays as white.</li>
+		<li>Mode 3 supresses all colors except black, white, grey, and unspecified and displays black as dark grey.</li>
+		<li>Mode 4 colorizes the image and replaces spaces with '.'.</li>
+		<li>Mode 5 colorizes the image, using both colored text and colored background.</li></ul>
+	</p>
+	<p><strong>Quitting the Application:</strong>
+		<ul><li>Press q to quit the application.</li></ul>
+	</p>
+	<p><strong>Formatting Color Pallets:</strong>
+		<img src="asciiImages/palletFormatting.png">
+		<ul><li>Use a new line for every character to be colored. </li>
+		<li>The format is &lt;character&gt; &lt;space&gt; &lt;color code&gt;. </li>
+		<li>All characters without a color code will be assigned colors automatically. </li></ul>
+	</p>
+	<hr>
+	<center>[ <a href="index.html">Home</a> | <a href="">Contact</a> ]</center>
+	</div>
+</body>
+
+</html>
